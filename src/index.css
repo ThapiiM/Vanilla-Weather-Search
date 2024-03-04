@@ -1,24 +1,18 @@
-html {
-  background-color: beige;
-}
-
-form {
-  display: block;
-  justify-content: center;
-  border: 0px 10px 0px 10px;
-  border: 2% auto;
-  padding: 5% auto;
-}
-
 body {
-  display: block;
-  justify-content: center;
-  border-radius: 5% 10% 5% 10%;
-  box-shadow: lightslategrey;
-  background-color: mediumpurple;
-  padding: 2% auto;
+  background-color: f9f7fe;
+}
+
+.app {
+  background-color: lightblue;
+  max-width: 600px;
+  margin: 45px auto;
+  border-radius: 16px;
+  padding: 10px 20px 120px 20px;
 }
 
 h1 {
   color: red;
+}
+
+footer {
 }
