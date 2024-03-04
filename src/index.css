@@ -1,9 +1,24 @@
-body {
-  background-color: wheat;
+html {
+  background-color: beige;
 }
 
-main {
-  background-color: mediumpurple;
-  padding: 2% 2% 2% 2%;
+form {
+  display: block;
+  justify-content: center;
+  border: 0px 10px 0px 10px;
+  border: 2% auto;
+  padding: 5% auto;
+}
+
+body {
+  display: block;
+  justify-content: center;
+  border-radius: 5% 10% 5% 10%;
   box-shadow: lightslategrey;
+  background-color: mediumpurple;
+  padding: 2% auto;
+}
+
+h1 {
+  color: red;
 }
