@@ -1,3 +1,9 @@
 body {
   background-color: wheat;
 }
+
+main {
+  background-color: mediumpurple;
+  padding: 2% 2% 2% 2%;
+  box-shadow: lightslategrey;
+}
