@@ -1,9 +1,16 @@
 body {
-  background: #a8a8a8;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cb60b3+0,ad1283+56,de47ac+100 */
+  background: linear-gradient(
+    to bottom,
+    #cb60b3 0%,
+    #ad1283 56%,
+    #de47ac 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 .app {
-  background-color: lightblue;
+  background-color: #fccdff;
+  box-shadow: rgb(125, 143, 177);
   max-width: 600px;
   margin: 45px auto;
   border-radius: 16px;
@@ -12,10 +19,12 @@ body {
 
 .search-form {
   display: block;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 .search-input {
+  background-color: #a8a8a8;
+  box-shadow: #a8a8a8;
   border: none;
   border-radius: 5px;
   width: 80%;
@@ -24,6 +33,7 @@ body {
 }
 
 .search-button {
+  background-color: #a8a8a8;
   border: none;
   border-radius: 5px;
   font-size: 17px;
@@ -32,9 +42,8 @@ body {
   margin-bottom: 10px;
 }
 
-h1 {
-  margin: 0 auto;
-  padding: 10px auto 0 auto;
+div {
+  margin: 20px auto;
 }
 
 footer {
