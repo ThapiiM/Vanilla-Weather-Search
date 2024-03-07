@@ -10,7 +10,7 @@ body {
 
 .app {
   background-color: #fccdff;
-  box-shadow: rgb(125, 143, 177);
+  box-shadow: 7px 10px 6px rgb(131, 132, 133);
   max-width: 600px;
   margin: 45px auto;
   border-radius: 16px;
@@ -23,8 +23,8 @@ body {
 }
 
 .search-input {
-  background-color: #a8a8a8;
-  box-shadow: #a8a8a8;
+  background-color: #9acdee;
+  box-shadow: 3px 7px 1px;
   border: none;
   border-radius: 5px;
   width: 80%;
