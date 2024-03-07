@@ -6,6 +6,7 @@ body {
     #ad1283 56%,
     #de47ac 100%
   ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  font-family: "Oswald", sans-serif;
 }
 
 .app {
@@ -34,20 +35,45 @@ body {
 
 .search-button {
   background-color: #a8a8a8;
+  box-shadow: 3px 7px 1px;
   border: none;
   border-radius: 5px;
   font-size: 17px;
   width: 10%;
   padding: 8px;
-  margin-bottom: 10px;
+  transition: all 200ms ease-in-out;
 }
 
-div {
-  margin: 20px auto;
+.search-button :hover {
+  color: rgb(83, 228, 184);
+  cursor: pointer;
+}
+
+header {
+  border-bottom: 5px solid rgb(131, 132, 133);
+  margin: 15px;
+}
+
+.weather-app-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px auto;
+}
+
+.weather-description h1 {
+  font-size: 60px;
+}
+
+.temperature {
+  font-size: 70px;
+}
+
+.weather-description {
+  font-size: 14px;
 }
 
 footer {
   border-top: 1px soid #f9f7fe;
   text-align: center;
-  padding-top: 200px;
+  padding-top: 20px;
 }
