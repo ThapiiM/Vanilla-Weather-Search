@@ -22,21 +22,27 @@
   <body>
     <div class="app">
       <header>
-        <form class="search-form">
+        <form class="search-form" id="search-form">
           <input
             type="text"
             placeholder="Search city..."
             class="search-input"
+            id="search-form-input"
             required
           />
-          <input type="submit" value="🔍" class="search-button" />
+          <input
+            type="submit"
+            value="🔍"
+            class="search-button"
+            id="search-button-submit"
+          />
         </form>
       </header>
 
       <main>
         <div class="weather-app-container">
           <div class="weather-description">
-            <h1>Phoenix</h1>
+            <h1 id="city">Phoenix</h1>
             <p>
               Saturday 13:24, partly cloudy <br />
               Humidity: 13%, Wind: 16km/h
