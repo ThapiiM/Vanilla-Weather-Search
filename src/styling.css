@@ -29,7 +29,7 @@ body {
   border: none;
   border-radius: 5px;
   width: 80%;
-  padding: 10px;
+  padding: 15px;
   margin-bottom: 10px;
 }
 
@@ -40,12 +40,13 @@ body {
   border-radius: 5px;
   font-size: 17px;
   width: 10%;
-  padding: 8px;
+  padding: 11px;
+  margin: 15px auto;
   transition: all 200ms ease-in-out;
 }
 
-.search-button :hover {
-  color: rgb(83, 228, 184);
+.search-button:hover {
+  background-color: black;
   cursor: pointer;
 }
 
@@ -57,19 +58,25 @@ header {
 .weather-app-container {
   display: flex;
   justify-content: space-between;
-  margin: 30px auto;
+  margin: 0 auto;
 }
 
-.weather-description h1 {
-  font-size: 60px;
+.weather-data {
+  margin-trim: 10px;
+}
+
+.weather-data h1 {
+  font-size: 50px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .temperature {
   font-size: 70px;
 }
 
-.weather-description {
-  font-size: 14px;
+.weather-data .weather-description {
+  font-size: 15px;
 }
 
 footer {

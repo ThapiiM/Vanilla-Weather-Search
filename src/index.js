@@ -1,3 +1,7 @@
+function searchCity() {
+  /*API integration*/
+}
+
 function searchEngine(event) {
   event.preventDefault();
 
