@@ -1,17 +1,20 @@
 body {
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cb60b3+0,ad1283+56,de47ac+100 */
-  background: linear-gradient(
-    to bottom,
-    #cb60b3 0%,
-    #ad1283 56%,
-    #de47ac 100%
-  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background-color: #838b83;
   font-family: "Oswald", sans-serif;
 }
 
 .app {
-  background-color: #fccdff;
-  box-shadow: 7px 10px 6px rgb(131, 132, 133);
+  background-color: #faf7fa;
+  background: linear-gradient(
+    to bottom,
+    #d8e0de 0%,
+    #aebfbc 22%,
+    #99afab 33%,
+    #8ea6a2 50%,
+    #829d98 67%,
+    #4e5c5a 82%,
+    #0e0e0e 100%
+  );
   max-width: 600px;
   margin: 45px auto;
   border-radius: 16px;
@@ -80,6 +83,7 @@ header {
 }
 
 footer {
+  color: #cbcecd;
   border-top: 1px soid #f9f7fe;
   text-align: center;
   padding-top: 20px;
